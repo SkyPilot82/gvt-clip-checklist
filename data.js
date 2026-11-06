@@ -5,7 +5,8 @@ window.GVT_DATA = {
 "name": "The Crossing",
 "kind": "Battlegrounds",
 "blurb": "A spilled fish-tank channel splits the lawn down the middle, with two popsicle-stick bridges and the Rubber Ducky that sails the channel. The Studio repaints it with grass and opens on it the first time.",
-"pick": "BATTLEGROUND → map: crossing"
+"pick": "BATTLEGROUND → map: crossing",
+"setup": "The river splits the field: two fighters dropped on opposite banks at mid-height take different bridges and can walk right past each other (seen 11/6). For a duel, drop them on the same bank, or line both up with one bridge (near the top or the bottom of the field)."
 },
 {
 "slug": "the-spill",
