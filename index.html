@@ -352,11 +352,13 @@ function copy(text, msg){
 
 function claudeText(s){
   var L = [];
-  L.push('GVT STUDIO SHOT — please set this scene up in the Studio for me.');
+  L.push('GVT STUDIO SHOT — please set this scene up in the running GVT Studio for me.');
+  L.push('(Claude: follow ~/gvt-studio-driver/SCENE.md on this Mac — it drives the Studio with scene.mjs.)');
   L.push('Shot '+s.id+': '+s.title);
   L.push('Save to: '+folder(s));
   L.push('File name: '+files(s).join('  and  '));
   L.push('Place: '+placeName(s.place)+((placeBy[s.place]||{}).pick?'  (Studio: '+placeBy[s.place].pick+')':'')+'   ·   Folder: '+typeName(s.type));
+  if((placeBy[s.place]||{}).load) L.push('Load: '+JSON.stringify(placeBy[s.place].load));
   if((placeBy[s.place]||{}).setup) L.push('Set-up: '+placeBy[s.place].setup);
   if(s.green&&s.green.length) L.push('Green (you): '+s.green.map(unitLine).join('; '));
   if(s.tan&&s.tan.length) L.push('Tan (CPU): '+s.tan.map(unitLine).join('; '));

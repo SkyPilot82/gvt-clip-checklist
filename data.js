@@ -6,70 +6,120 @@ window.GVT_DATA = {
 "kind": "Battlegrounds",
 "blurb": "A spilled fish-tank channel splits the lawn down the middle, with two popsicle-stick bridges and the Rubber Ducky that sails the channel. The Studio repaints it with grass and opens on it the first time.",
 "pick": "BATTLEGROUND → map: crossing",
-"setup": "The river splits the field: two fighters dropped on opposite banks at mid-height take different bridges and can walk right past each other (seen 11/6). For a duel, drop them on the same bank, or line both up with one bridge (near the top or the bottom of the field)."
+"setup": "The river splits the field: two fighters dropped on opposite banks at mid-height take different bridges and can walk right past each other (seen 11/6). For a duel, drop them on the same bank, or line both up with one bridge (near the top or the bottom of the field).",
+"load": {
+"kind": "bf",
+"map": "crossing",
+"size": 2
+}
 },
 {
 "slug": "the-spill",
 "name": "The Spill",
 "kind": "Battlegrounds",
 "blurb": "The tipped juice cup on the bedroom rug: a purple juice stream with two bridges (one is an open gap bridge) and a slow purple pond with a duck in it.",
-"pick": "BATTLEGROUND → map: spill"
+"pick": "BATTLEGROUND → map: spill",
+"load": {
+"kind": "bf",
+"map": "spill",
+"size": 2
+}
 },
 {
 "slug": "stone-row",
 "name": "Stone Row",
 "kind": "Battlegrounds",
 "blurb": "Pebbles and boulders scattered across the rug so the men have to weave, a race-track lane along the south flank, and 5 jacks mines in the gaps.",
-"pick": "BATTLEGROUND → map: stone"
+"pick": "BATTLEGROUND → map: stone",
+"load": {
+"kind": "bf",
+"map": "stone",
+"size": 2
+}
 },
 {
 "slug": "the-lava-field",
 "name": "The Lava Field",
 "kind": "Battlegrounds",
 "blurb": "King Rex's volcanic lair floor with mesa rocks, five deadly magma bowls and two egg nests that hatch a surprise dinosaur at half time.",
-"pick": "BATTLEGROUND → map: lava"
+"pick": "BATTLEGROUND → map: lava",
+"load": {
+"kind": "bf",
+"map": "lava",
+"size": 2
+}
 },
 {
 "slug": "the-hill-village",
 "name": "The Hill Village",
 "kind": "Battlegrounds",
 "blurb": "A double-height model village on a grassy hill: a high street winding between seven houses and shops, a low road, a wishing well and a playground. The camera moves up and down.",
-"pick": "BATTLEGROUND → map: pbvhill"
+"pick": "BATTLEGROUND → map: pbvhill",
+"load": {
+"kind": "bf",
+"map": "pbvhill",
+"size": 2
+}
 },
 {
 "slug": "the-door-snake",
 "name": "The Door Snake",
 "kind": "Battlegrounds",
 "blurb": "A carpet with a long draft-stopper along the north wall and a crawl trench where nobody can be targeted. A book spine and wooden drums sit on the centre line and painted toy blocks on the open south side, and every piece is cover.",
-"pick": "BATTLEGROUND → map: pbsnake"
+"pick": "BATTLEGROUND → map: pbsnake",
+"load": {
+"kind": "bf",
+"map": "pbsnake",
+"size": 2
+}
 },
 {
 "slug": "the-winter-field",
 "name": "The Winter Field",
 "kind": "Battlegrounds",
 "blurb": "The tipped Christmas box: snow over the rug, cotton-wool drifts, trodden trails, deep snow and slippery ice at the gate. It is the base snow look and where the snow-only items work.",
-"pick": "BATTLEGROUND → map: winter"
+"pick": "BATTLEGROUND → map: winter",
+"load": {
+"kind": "bf",
+"map": "winter",
+"size": 2
+}
 },
 {
 "slug": "western-land",
 "name": "Western Land",
 "kind": "Battlegrounds",
 "blurb": "A double-height train-set desert with mesas, cacti, a trench and 3 jacks mines, plus a railway whose train kills anything on the rails. It is the only place The Train Comes works.",
-"pick": "BATTLEGROUND → map: western"
+"pick": "BATTLEGROUND → map: western",
+"load": {
+"kind": "bf",
+"map": "western",
+"size": 2
+}
 },
 {
 "slug": "the-backyard",
 "name": "The Backyard",
 "kind": "Battlegrounds",
 "blurb": "The lawn past the porch light: garden stones, a mud patch to wade, small pitfalls, 2 jacks mines, three drifting fog banks that hide the men, and the soccer ball.",
-"pick": "BATTLEGROUND → map: backyard"
+"pick": "BATTLEGROUND → map: backyard",
+"load": {
+"kind": "bf",
+"map": "backyard",
+"size": 2
+}
 },
 {
 "slug": "the-rooftop",
 "name": "The Rooftop",
 "kind": "Battlegrounds",
 "blurb": "A dollhouse roof three stories up: men pushed past the eaves fall to the rug, a gap at the top centre swallows soldiers, and there are skylights of slippery glass, a chimney and vents. The roof events work only here.",
-"pick": "BATTLEGROUND → map: rooftop"
+"pick": "BATTLEGROUND → map: rooftop",
+"load": {
+"kind": "bf",
+"map": "rooftop",
+"size": 2
+}
 },
 {
 "slug": "the-ice-castle",
@@ -77,7 +127,12 @@ window.GVT_DATA = {
 "kind": "Raids",
 "blurb": "King Yeti's raid on a double-height snow field with drifts and two turret outposts either side can capture. MEGA adds double blizzard weather and purple leaps.",
 "pick": "RAID / HIDEOUT → raid: ice · tier e / m / h / g (g = MEGA)",
-"setup": "Pick the tier first (e/m/h/g; g = MEGA). Then CLEAR THE FIELD with CPU HOLD on, so the boss and the raid waves stay out unless the shot wants them."
+"setup": "Pick the tier first (e/m/h/g; g = MEGA). Then CLEAR THE FIELD with CPU HOLD on, so the boss and the raid waves stay out unless the shot wants them.",
+"load": {
+"kind": "raid",
+"raid": "ice",
+"tier": "h"
+}
 },
 {
 "slug": "king-rexs-lair",
@@ -85,7 +140,12 @@ window.GVT_DATA = {
 "kind": "Raids",
 "blurb": "King Rex's raid on the volcanic lair floor, the same look as The Lava Field on a slightly taller field, where King Rex breathes fire. Tier g brings MEGA REX.",
 "pick": "RAID / HIDEOUT → raid: bone · tier e / m / h / g (g = MEGA REX)",
-"setup": "Pick the tier first (e/m/h/g; g = MEGA). Then CLEAR THE FIELD with CPU HOLD on, so the boss and the raid waves stay out unless the shot wants them."
+"setup": "Pick the tier first (e/m/h/g; g = MEGA). Then CLEAR THE FIELD with CPU HOLD on, so the boss and the raid waves stay out unless the shot wants them.",
+"load": {
+"kind": "raid",
+"raid": "bone",
+"tier": "h"
+}
 },
 {
 "slug": "king-croaks-hideout",
@@ -93,7 +153,12 @@ window.GVT_DATA = {
 "kind": "Raids",
 "blurb": "A western main-street duel on sand with crates for cover: you against King Croak, with banditos riding in each time he loses 20% health and a snake on medium and hard.",
 "pick": "RAID / HIDEOUT → raid: croak · tier m or h for the snake",
-"setup": "Pick the tier first (e/m/h/g; g = MEGA). Then CLEAR THE FIELD with CPU HOLD on, so the boss and the raid waves stay out unless the shot wants them."
+"setup": "Pick the tier first (e/m/h/g; g = MEGA). Then CLEAR THE FIELD with CPU HOLD on, so the boss and the raid waves stay out unless the shot wants them.",
+"load": {
+"kind": "raid",
+"raid": "croak",
+"tier": "h"
+}
 },
 {
 "slug": "the-pillow-fields",
@@ -101,7 +166,12 @@ window.GVT_DATA = {
 "kind": "Raids",
 "blurb": "Emperor Bear's raid on a moonlit quilt floor with pillow obstacles. The boss rides a horse and makes a sweeping saddle attack.",
 "pick": "RAID / HIDEOUT → raid: fields · tier e / m / h / g",
-"setup": "Pick the tier first (e/m/h/g; g = MEGA). Then CLEAR THE FIELD with CPU HOLD on, so the boss and the raid waves stay out unless the shot wants them."
+"setup": "Pick the tier first (e/m/h/g; g = MEGA). Then CLEAR THE FIELD with CPU HOLD on, so the boss and the raid waves stay out unless the shot wants them.",
+"load": {
+"kind": "raid",
+"raid": "fields",
+"tier": "h"
+}
 },
 {
 "slug": "yeti-park",
@@ -109,7 +179,12 @@ window.GVT_DATA = {
 "kind": "Parks",
 "blurb": "A snow theme park with drift banks on odd rungs. Rung 20 is HIS HIGHNESS, PRINCE YETI, and rungs 20 and 30 tint the enemy red.",
 "pick": "PARK → park: yeti · rung 1-50 (20 = Prince Yeti; the box goes to 60 but the game stops at 50)",
-"setup": "Pick the rung first (it sets fog, pits and who shows up). Then CLEAR THE FIELD with CPU HOLD on, so the park waves stay out unless the shot wants them."
+"setup": "Pick the rung first (it sets fog, pits and who shows up). Then CLEAR THE FIELD with CPU HOLD on, so the park waves stay out unless the shot wants them.",
+"load": {
+"kind": "park",
+"park": "yeti",
+"rung": 20
+}
 },
 {
 "slug": "dino-park",
@@ -117,7 +192,12 @@ window.GVT_DATA = {
 "kind": "Parks",
 "blurb": "Jungle grass with drifting jungle mist from rung 3, small pits on odd rungs and rocks on even rungs. Rung 20 is HIS MAJESTY, KING REX.",
 "pick": "PARK → park: dino · rung 3+ for the mist, 20 = King Rex",
-"setup": "Pick the rung first (it sets fog, pits and who shows up). Then CLEAR THE FIELD with CPU HOLD on, so the park waves stay out unless the shot wants them."
+"setup": "Pick the rung first (it sets fog, pits and who shows up). Then CLEAR THE FIELD with CPU HOLD on, so the park waves stay out unless the shot wants them.",
+"load": {
+"kind": "park",
+"park": "dino",
+"rung": 20
+}
 },
 {
 "slug": "outlaw-town",
@@ -125,7 +205,12 @@ window.GVT_DATA = {
 "kind": "Parks",
 "blurb": "Sandy western streets with crate rocks. Its set pieces are THE QUIET STREET (12), the snake debut (13), TRAIN ROBBERY WEATHER with a killing train and fog (18) and HIGH NOON (20).",
 "pick": "PARK → park: western · rung 12 / 13 / 18 / 20",
-"setup": "Pick the rung first (it sets fog, pits and who shows up). Then CLEAR THE FIELD with CPU HOLD on, so the park waves stay out unless the shot wants them."
+"setup": "Pick the rung first (it sets fog, pits and who shows up). Then CLEAR THE FIELD with CPU HOLD on, so the park waves stay out unless the shot wants them.",
+"load": {
+"kind": "park",
+"park": "western",
+"rung": 20
+}
 },
 {
 "slug": "bear-park",
@@ -133,7 +218,12 @@ window.GVT_DATA = {
 "kind": "Parks",
 "blurb": "A quilt floor with pillows on odd rungs, lilac fluff fog from rung 3 and pits on rung 15. It runs from WELCOME TO CAMP SNUGG (1) to PRINCE BEAR TAKES THE FIELD (20).",
 "pick": "PARK → park: teddy · rung 1 / 15 / 20",
-"setup": "Pick the rung first (it sets fog, pits and who shows up). Then CLEAR THE FIELD with CPU HOLD on, so the park waves stay out unless the shot wants them."
+"setup": "Pick the rung first (it sets fog, pits and who shows up). Then CLEAR THE FIELD with CPU HOLD on, so the park waves stay out unless the shot wants them.",
+"load": {
+"kind": "park",
+"park": "teddy",
+"rung": 20
+}
 },
 {
 "slug": "mom-alert",
@@ -141,7 +231,10 @@ window.GVT_DATA = {
 "kind": "Special",
 "blurb": "The bare bedroom floorboards with no rug and no terrain, where Mom is a three-round boss whose health bar refills each round.",
 "pick": "MOM ALERT (no options)",
-"setup": "Mom is the boss and is not a board tile. Turn CPU HOLD OFF so she plays her three rounds."
+"setup": "Mom is the boss and is not a board tile. Turn CPU HOLD OFF so she plays her three rounds.",
+"load": {
+"kind": "mom"
+}
 },
 {
 "slug": "bedroom-rug",
@@ -149,7 +242,11 @@ window.GVT_DATA = {
 "kind": "Campaign",
 "blurb": "The classic red bedroom rug of the campaign. The CPU column becomes the level's tan figures here: Officer, Crawler, Giant, THEIR SARGE and the rest.",
 "pick": "CAMPAIGN LEVEL → L 1 (BOOT CAMP); L 100 for the wide rug",
-"setup": "Type the level number first. Then CLEAR THE FIELD with CPU HOLD on, so the level waves stay out. Tan men here are the level figures and ignore UNIT LEVEL."
+"setup": "Type the level number first. Then CLEAR THE FIELD with CPU HOLD on, so the level waves stay out. Tan men here are the level figures and ignore UNIT LEVEL.",
+"load": {
+"kind": "camp",
+"lvl": 1
+}
 },
 {
 "slug": "night-carpet",
@@ -157,7 +254,11 @@ window.GVT_DATA = {
 "kind": "Campaign",
 "blurb": "The elite levels 101-200 replay level n-100 after dark, in a slate and navy palette with window light. This is the real elite night look, not the Night event.",
 "pick": "CAMPAIGN LEVEL → L 101 (any 101-200; L 110 = Gnome Park at night, not checked by eye)",
-"setup": "Type the level number first. Then CLEAR THE FIELD with CPU HOLD on, so the level waves stay out. Tan men here are the level figures and ignore UNIT LEVEL."
+"setup": "Type the level number first. Then CLEAR THE FIELD with CPU HOLD on, so the level waves stay out. Tan men here are the level figures and ignore UNIT LEVEL.",
+"load": {
+"kind": "camp",
+"lvl": 101
+}
 },
 {
 "slug": "gnome-park",
@@ -165,7 +266,11 @@ window.GVT_DATA = {
 "kind": "Campaign",
 "blurb": "Campaign level 10 is built as Gnome Park's lawn. It is the only Gnome Park look the Studio can load, since the park itself is not in the park menu.",
 "pick": "CAMPAIGN LEVEL → L 10",
-"setup": "Type the level number first. Then CLEAR THE FIELD with CPU HOLD on, so the level waves stay out. Tan men here are the level figures and ignore UNIT LEVEL."
+"setup": "Type the level number first. Then CLEAR THE FIELD with CPU HOLD on, so the level waves stay out. Tan men here are the level figures and ignore UNIT LEVEL.",
+"load": {
+"kind": "camp",
+"lvl": 10
+}
 },
 {
 "slug": "high-noon-desert",
@@ -173,7 +278,11 @@ window.GVT_DATA = {
 "kind": "Campaign",
 "blurb": "L50 HIGH NOON AT FIFTY is a specially built, wide desert level with flat sand, cacti and no railway. It is the desert campaign field where Tumbleweeds work, with the tan army on sand.",
 "pick": "CAMPAIGN LEVEL → L 50",
-"setup": "Type the level number first. Then CLEAR THE FIELD with CPU HOLD on, so the level waves stay out. Tan men here are the level figures and ignore UNIT LEVEL."
+"setup": "Type the level number first. Then CLEAR THE FIELD with CPU HOLD on, so the level waves stay out. Tan men here are the level figures and ignore UNIT LEVEL.",
+"load": {
+"kind": "camp",
+"lvl": 50
+}
 }
 ],
 "types": [
