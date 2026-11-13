@@ -21194,17 +21194,17 @@ window.GVT_DATA = {
 "title": "The Giant Snowman rolls, then splits",
 "file": "giant-snowman-splits",
 "orient": "portrait",
-"len": 25,
+"len": 14,
 "green": [
 {
 "unit": "Bazooka",
 "n": 3,
-"note": "about 250 px from him: inside his reach, outside his 140-px minimum"
+"note": "about 280 px from him"
 },
 {
 "unit": "Rifleman",
-"n": 4,
-"note": "beside the bazookas"
+"n": 2,
+"note": "just behind the bazookas"
 }
 ],
 "tan": [
@@ -21217,23 +21217,27 @@ window.GVT_DATA = {
 "camera": [
 {
 "at": 0,
-"step": "Zoom in on the Giant Snowman"
+"step": "Zoom in (1.6×) on the Giant Snowman"
 },
 {
-"at": 0.5,
-"step": "Hold 3 s for the first boulder"
+"at": 1,
+"step": "Hold 4 s for the throw"
 },
 {
-"at": 3.5,
-"step": "Pan to your line, keep zoom, as it rolls in"
+"at": 5,
+"step": "Pan to your line, keep zoom, as the boulder flattens it"
+},
+{
+"at": 8,
+"step": "Zoom out to NORMAL between them for the split"
 },
 {
 "at": 9,
-"step": "Zoom out to NORMAL for the split"
+"step": "Hold to the end"
 }
 ],
 "health": [
-"The Giant Snowman: 25%, so the bazookas finish him about 10 s in",
+"The Giant Snowman: FULL health (94 hits) — at 25% the bazookas kill him in 3 s before a boulder rolls",
 "Your men: full"
 ],
 "outcome": "Two snow boulders roll through the line, then he goes down and splits into five little snowmen that keep coming.",
@@ -21247,7 +21251,7 @@ window.GVT_DATA = {
 "health",
 "snow"
 ],
-"notes": "PARK → yeti, rung 5, CPU HOLD on. Open the units board (U); the ENEMY CASTS tabs sit under the Sarges on BOTH columns. A cast dropped from the computer's column fights for the computer, from YOUR column for you. On a battleground a cast's health and hits follow UNIT LEVEL like a man's; in a park, a raid or a campaign level the computer's cast is the level's own figure and ignores it. TAP a tile (press and let go) to land him on a random clear spot on his own side. Sergeant Snowman does the same trick.",
+"notes": "PARK → yeti, rung 5, CPU HOLD on. Open the units board (U); the ENEMY CASTS tabs sit under the Sarges on BOTH columns. A cast dropped from the computer's column fights for the computer, from YOUR column for you. On a battleground a cast's health and hits follow UNIT LEVEL like a man's; in a park, a raid or a campaign level the computer's cast is the level's own figure and ignores it. TAP a tile (press and let go) to land him on a random clear spot on his own side. Sergeant Snowman does the same trick. RECORDED 11/13 (takes/yeti-park/intros-and-spotlights/giant-snowman-splits-portrait.mp4): his boulder flattens three men at about 6.5 s, he falls at 8.5 s, five little snowmen pop out at 9 s and the last two men clear them by 11 s. Men further than 300 px die to boulders before a bazooka fires; closer than 250 and he dies before throwing.",
 "id": "yeti-park/intros-and-spotlights/giant-snowman-splits"
 },
 {
@@ -21420,7 +21424,7 @@ window.GVT_DATA = {
 "type": "boss-fights",
 "title": "King Rex vs King Yeti",
 "file": "king-rex-vs-king-yeti",
-"orient": "both",
+"orient": "landscape",
 "len": 30,
 "green": [
 {
@@ -21433,30 +21437,18 @@ window.GVT_DATA = {
 {
 "unit": "King Yeti",
 "n": 1,
-"note": "the YETI tab on the computer's column: the SECOND King Yeti tile, the one that walks and throws (the first is the park's throne Yeti, who never moves)"
+"note": "the YETI tab on the computer's column: the tile that reads King Yeti (the park's throne Yeti, who never moves, reads just \"Yeti\")"
 }
 ],
 "camera": [
 {
 "at": 0,
-"step": "Zoom in (about 2×) on the gap between them"
-},
-{
-"at": 0.5,
-"step": "Hold 4 s for the charge"
-},
-{
-"at": 4.5,
-"step": "Pan with the fight, keep zoom"
-},
-{
-"at": 22,
-"step": "Reset to the original framing for the end"
+"step": "Fixed landscape frame centred between them (no camera moves): the whole chase stays in shot"
 }
 ],
 "health": [
-"King Rex: 30%",
-"King Yeti: 30%, so one falls near 25 s (rehearse: both have 190 hits at full)"
+"King Rex: 100 hits",
+"King Yeti: 100 hits (the Yeti falls at about 17 s)"
 ],
 "outcome": "Fire breath and a sprint against heavy snowballs: the two park kings on neutral grass.",
 "why": "The headline cast matchup, Wyatt's own example of casts fighting for either army.",
@@ -21470,7 +21462,7 @@ window.GVT_DATA = {
 "pan",
 "ad-hook"
 ],
-"notes": "BATTLEGROUND → crossing. Drop both on the SAME bank (see the place note). Open the units board (U); the ENEMY CASTS tabs sit under the Sarges on BOTH columns. A cast dropped from the computer's column fights for the computer, from YOUR column for you. On a battleground a cast's health and hits follow UNIT LEVEL like a man's; in a park, a raid or a campaign level the computer's cast is the level's own figure and ignores it. TAP a tile (press and let go) to land him on a random clear spot on his own side. Set UNIT LEVEL 50 before dropping either.",
+"notes": "BATTLEGROUND → crossing. Drop both on the SAME bank (see the place note). Open the units board (U); the ENEMY CASTS tabs sit under the Sarges on BOTH columns. A cast dropped from the computer's column fights for the computer, from YOUR column for you. On a battleground a cast's health and hits follow UNIT LEVEL like a man's; in a park, a raid or a campaign level the computer's cast is the level's own figure and ignores it. TAP a tile (press and let go) to land him on a random clear spot on his own side. Set UNIT LEVEL 50 before dropping either. RECORDED 11/13 (takes/the-crossing/boss-fights/king-rex-vs-king-yeti-landscape.mp4): both on the right bank, Rex at 1120, Yeti at 1400, mid-height. How the casts actually fight: Rex breathes fire then dashes PAST the Yeti, the Yeti throws snowballs, chases and leaps onto him, and the two stand on the same spot until one falls. They drift 400+ px, so a portrait frame cannot hold both (CAMERA AUTO lagged too); landscape with a fixed frame works. Near the top edge they pile against the wall: keep them mid-height.",
 "id": "the-crossing/boss-fights/king-rex-vs-king-yeti"
 },
 {
@@ -21496,7 +21488,7 @@ window.GVT_DATA = {
 {
 "unit": "King Yeti",
 "n": 1,
-"note": "YETI tab, the second King Yeti tile (the walking one)"
+"note": "YETI tab, the King Yeti tile (the throne one reads just \"Yeti\")"
 },
 {
 "unit": "Snowman",
@@ -21803,7 +21795,7 @@ window.GVT_DATA = {
 "title": "The Honor Guard takes the bullet",
 "file": "guard-takes-bullet",
 "orient": "portrait",
-"len": 15,
+"len": 12,
 "start": 3,
 "green": [
 {
@@ -21821,7 +21813,7 @@ window.GVT_DATA = {
 {
 "unit": "Honor Guard",
 "n": 2,
-"note": "BEAR tab, within 200 px of the Emperor"
+"note": "BEAR tab, dropped BEHIND the Emperor (60 px further from the Sarge), so a guard can only die by diving"
 }
 ],
 "camera": [
@@ -21853,7 +21845,7 @@ window.GVT_DATA = {
 "zoom-in",
 "quick"
 ],
-"notes": "PARK → teddy, rung 20, CPU HOLD on. Open the units board (U); the ENEMY CASTS tabs sit under the Sarges on BOTH columns. A cast dropped from the computer's column fights for the computer, from YOUR column for you. On a battleground a cast's health and hits follow UNIT LEVEL like a man's; in a park, a raid or a campaign level the computer's cast is the level's own figure and ignores it. TAP a tile (press and let go) to land him on a random clear spot on his own side. A guard dives from 220 px; retake until the dive lands in frame.",
+"notes": "PARK → teddy, rung 20, CPU HOLD on. Open the units board (U); the ENEMY CASTS tabs sit under the Sarges on BOTH columns. A cast dropped from the computer's column fights for the computer, from YOUR column for you. On a battleground a cast's health and hits follow UNIT LEVEL like a man's; in a park, a raid or a campaign level the computer's cast is the level's own figure and ignores it. TAP a tile (press and let go) to land him on a random clear spot on his own side. A guard dives from 220 px; retake until the dive lands in frame. RECORDED 11/13 (takes/bear-park/story-moments/guard-takes-bullet-portrait.mp4): Sniper at x 520, Emperor at 900, guards at 960. The first shot at 3 s kills a guard mid-dive, the second at 6 s kills the other, the Emperor charges and takes the Sarge at 7.5 s, then calls two Royalists. Camera: zoom 1.5× on the Emperor, hold, reset at 10 s. Works every time.",
 "id": "bear-park/story-moments/guard-takes-bullet"
 },
 {
@@ -22143,7 +22135,7 @@ window.GVT_DATA = {
 "zoom-in",
 "quick"
 ],
-"notes": "BATTLEGROUND → winter. Open the units board (U); the ENEMY CASTS tabs sit under the Sarges on BOTH columns. A cast dropped from the computer's column fights for the computer, from YOUR column for you. On a battleground a cast's health and hits follow UNIT LEVEL like a man's; in a park, a raid or a campaign level the computer's cast is the level's own figure and ignores it. TAP a tile (press and let go) to land him on a random clear spot on his own side. UNIT LEVEL is fixed when a tile is dropped: set 50, drop the gunner and medic, then set 10 and tap the yetis.",
+"notes": "BATTLEGROUND → winter. Open the units board (U); the ENEMY CASTS tabs sit under the Sarges on BOTH columns. A cast dropped from the computer's column fights for the computer, from YOUR column for you. On a battleground a cast's health and hits follow UNIT LEVEL like a man's; in a park, a raid or a campaign level the computer's cast is the level's own figure and ignores it. TAP a tile (press and let go) to land him on a random clear spot on his own side. UNIT LEVEL is fixed when a tile is dropped: set 50, drop the gunner and medic, then set 10 and tap the yetis. TESTED 11/13, NOT RECORDED: munchkins at speed 140 cross 400 px in 2 s; the gunner only opens up at about 100 px and dies in 2 s with 0 hits (health does not help: 20 bites a second). Same with the sides swapped. Rework: a Heavy Tank (they pile onto it), a Sandbag Wall line, or film it as a 6-s slapstick massacre.",
 "id": "the-winter-field/outnumbered/munchkins-rush-gunner"
 },
 {
@@ -22517,7 +22509,7 @@ window.GVT_DATA = {
 "camera",
 "zoom-in"
 ],
-"notes": "BATTLEGROUND → spill. Open the units board (U); the ENEMY CASTS tabs sit under the Sarges on BOTH columns. A cast dropped from the computer's column fights for the computer, from YOUR column for you. On a battleground a cast's health and hits follow UNIT LEVEL like a man's; in a park, a raid or a campaign level the computer's cast is the level's own figure and ignores it. TAP a tile (press and let go) to land him on a random clear spot on his own side. UNIT LEVEL 30. His ram starts at 450 px: drop him inside that.",
+"notes": "BATTLEGROUND → spill. Open the units board (U); the ENEMY CASTS tabs sit under the Sarges on BOTH columns. A cast dropped from the computer's column fights for the computer, from YOUR column for you. On a battleground a cast's health and hits follow UNIT LEVEL like a man's; in a park, a raid or a campaign level the computer's cast is the level's own figure and ignores it. TAP a tile (press and let go) to land him on a random clear spot on his own side. UNIT LEVEL 30. His ram starts at 450 px: drop him inside that. TESTED 11/13, NOT KEPT: one ram at 2 s flattens a 60% tank; at 500% the tank survives but NEVER fires at the triceratops (a Heavy Tank ignores cast tiles — worth telling Wyatt), and the trike runs 120 px past and walks on to your box. Rework: riflemen or a bazooka as the target, or a cast-vs-cast ram (Big Ted Wallow, The General), landscape so the run-past stays in frame.",
 "id": "the-spill/unit-matchups/trike-rams-tank"
 },
 {
