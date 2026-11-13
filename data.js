@@ -467,6 +467,11 @@ window.GVT_DATA = {
 "slug": "fast-take",
 "name": "Fast take",
 "hint": "Recorded with FAST TAKE (Q) on"
+},
+{
+"slug": "casts",
+"name": "Park casts",
+"hint": "The Studio r43 ENEMY CASTS tiles (DINO · YETI · BEAR · GNOME · OUTLAW) on either column: the game's own park enemies, fighting for either army on any level"
 }
 ],
 "rules": [
@@ -481,7 +486,8 @@ window.GVT_DATA = {
 "The place folder is whatever was picked in the Studio door. A Night or Snowfall event does not change it; night-carpet is only for elite levels 101-200.",
 "A map that silently turns into a RANDOM map is never a place folder: the benched OPEN FIELD, THE BED, THE SEASIDE VILLAGE, THE FARM VILLAGE, THE FROZEN TUNDRA and THE STARSHIP, plus THE HAUNTED LIBRARY after 11/01. That is why Tundra is not on the list.",
 "The Studio's SAVE TAKE AS window (on Skylar's Mac) files a take straight into takes/<place>/<battle-type>/ with these names; elsewhere the Studio saves <date_time>_<scene>-<frame>.mp4 into takes/ — rename it to its checklist name when you move it.",
-"Campaign-type places (raids, parks, campaign levels and Mom Alert) have no CPU AIR, no Paratroopers (theirs) or Bomber Run (theirs), and no Mine FOR CPU. Their CPU column is the level's tan figures, which ignore UNIT LEVEL."
+"Campaign-type places (raids, parks, campaign levels and Mom Alert) have no CPU AIR, no Paratroopers (theirs) or Bomber Run (theirs), and no Mine FOR CPU. Their CPU column is the level's tan figures, which ignore UNIT LEVEL.",
+"A cast member (the DINO · YETI · BEAR · GNOME · OUTLAW tabs, Studio r43) is named like any unit: knights-clash, yetis-vs-dinos, queen-lays-nests. Say which tab and which column in the notes, never in the file name."
 ],
 "unavailable": [
 "Open Field, The Bed, The Seaside Village, The Farm Village, The Frozen Tundra and The Starship are benched in the game, so the Studio quietly loads a random map instead.",
@@ -21129,6 +21135,1881 @@ window.GVT_DATA = {
 ],
 "notes": "CAMPAIGN LEVEL → L 50, CPU HOLD on. L50 is a 1920-wide grand-stage field; landscape shows its width.",
 "id": "high-noon-desert/large-battles/high-noon-wide-sand-cacti-sweep-16v16"
+},
+{
+"place": "dino-park",
+"type": "intros-and-spotlights",
+"title": "Meet the Dilophosaurus: the four-way spit",
+"file": "dilo-spits-cone",
+"orient": "portrait",
+"len": 18,
+"start": 3,
+"green": [
+{
+"unit": "Rifleman",
+"n": 6,
+"note": "bunched, about 200 px from the Dilophosaurus, so the whole cone lands"
+}
+],
+"tan": [
+{
+"unit": "Dilophosaurus",
+"n": 1,
+"note": "DINO tab, the computer's column"
+}
+],
+"camera": [
+{
+"at": 0,
+"step": "Zoom in tight on the Dilophosaurus"
+},
+{
+"at": 0.5,
+"step": "Hold 2.5 s through the battle start"
+},
+{
+"at": 3,
+"step": "Pan to the bunch, keep zoom, as the first spit fans out"
+},
+{
+"at": 12,
+"step": "Reset to the original framing"
+}
+],
+"outcome": "His four-shot cone fans across the bunch and slows every man it touches.",
+"why": "A \"meet this guy\" clip for the cast's odd one: the spitter that fires a fan.",
+"tags": [
+"casts",
+"camera",
+"zoom-in",
+"pan",
+"start-timer"
+],
+"notes": "PARK → dino, rung 5. CLEAR THE FIELD with CPU HOLD on. Open the units board (U); the ENEMY CASTS tabs sit under the Sarges on BOTH columns. A cast dropped from the computer's column fights for the computer, from YOUR column for you. On a battleground a cast's health and hits follow UNIT LEVEL like a man's; in a park, a raid or a campaign level the computer's cast is the level's own figure and ignores it. TAP a tile (press and let go) to land him on a random clear spot on his own side. His reach is 250 px.",
+"id": "dino-park/intros-and-spotlights/dilo-spits-cone"
+},
+{
+"place": "yeti-park",
+"type": "intros-and-spotlights",
+"title": "The Giant Snowman rolls, then splits",
+"file": "giant-snowman-splits",
+"orient": "portrait",
+"len": 25,
+"green": [
+{
+"unit": "Bazooka",
+"n": 3,
+"note": "about 250 px from him: inside his reach, outside his 140-px minimum"
+},
+{
+"unit": "Rifleman",
+"n": 4,
+"note": "beside the bazookas"
+}
+],
+"tan": [
+{
+"unit": "The Giant Snowman",
+"n": 1,
+"note": "YETI tab, the computer's column"
+}
+],
+"camera": [
+{
+"at": 0,
+"step": "Zoom in on the Giant Snowman"
+},
+{
+"at": 0.5,
+"step": "Hold 3 s for the first boulder"
+},
+{
+"at": 3.5,
+"step": "Pan to your line, keep zoom, as it rolls in"
+},
+{
+"at": 9,
+"step": "Zoom out to NORMAL for the split"
+}
+],
+"health": [
+"The Giant Snowman: 25%, so the bazookas finish him about 10 s in",
+"Your men: full"
+],
+"outcome": "Two snow boulders roll through the line, then he goes down and splits into five little snowmen that keep coming.",
+"why": "The cast's best death: a boss that becomes a crowd.",
+"tags": [
+"casts",
+"boss",
+"camera",
+"zoom-in",
+"pan",
+"health",
+"snow"
+],
+"notes": "PARK → yeti, rung 5, CPU HOLD on. Open the units board (U); the ENEMY CASTS tabs sit under the Sarges on BOTH columns. A cast dropped from the computer's column fights for the computer, from YOUR column for you. On a battleground a cast's health and hits follow UNIT LEVEL like a man's; in a park, a raid or a campaign level the computer's cast is the level's own figure and ignores it. TAP a tile (press and let go) to land him on a random clear spot on his own side. Sergeant Snowman does the same trick.",
+"id": "yeti-park/intros-and-spotlights/giant-snowman-splits"
+},
+{
+"place": "bear-park",
+"type": "intros-and-spotlights",
+"title": "Mr. Buttons sits still, then pounces",
+"file": "mr-buttons-pounces",
+"orient": "portrait",
+"len": 20,
+"start": 2,
+"green": [
+{
+"unit": "Rifleman",
+"n": 2,
+"note": "about 500 px to his left, so the walk takes a few seconds"
+}
+],
+"tan": [
+{
+"unit": "Mr. Buttons",
+"n": 1,
+"note": "BEAR tab, the computer's column; alone"
+}
+],
+"camera": [
+{
+"at": 0,
+"step": "Zoom in tight on Mr. Buttons, sitting like a toy"
+},
+{
+"at": 0.5,
+"step": "Hold 3 s"
+},
+{
+"at": 3.5,
+"step": "Pan left to the walking riflemen, keep zoom"
+},
+{
+"at": 6,
+"step": "Pan back to Mr. Buttons as they come within 180 px"
+},
+{
+"at": 11,
+"step": "Reset to the original framing"
+}
+],
+"outcome": "He does not move until a man is close (or 14 s pass), then he leaps.",
+"why": "The slapstick cast tile: a stuffed bear playing dead.",
+"tags": [
+"casts",
+"camera",
+"zoom-in",
+"pan",
+"slapstick",
+"start-timer"
+],
+"notes": "PARK → teddy, rung 1, CPU HOLD on. Open the units board (U); the ENEMY CASTS tabs sit under the Sarges on BOTH columns. A cast dropped from the computer's column fights for the computer, from YOUR column for you. On a battleground a cast's health and hits follow UNIT LEVEL like a man's; in a park, a raid or a campaign level the computer's cast is the level's own figure and ignores it. TAP a tile (press and let go) to land him on a random clear spot on his own side. He wakes at 180 px or after 14 s of play, whichever comes first.",
+"id": "bear-park/intros-and-spotlights/mr-buttons-pounces"
+},
+{
+"place": "gnome-park",
+"type": "intros-and-spotlights",
+"title": "The Queen Wasp lays her nests",
+"file": "queen-lays-nests",
+"orient": "portrait",
+"len": 30,
+"green": [
+{
+"unit": "Rifleman",
+"n": 6
+},
+{
+"unit": "M. Gunner",
+"n": 2
+}
+],
+"tan": [
+{
+"unit": "The Queen Wasp",
+"n": 1,
+"note": "GNOME tab, the computer's column"
+}
+],
+"camera": [
+{
+"at": 0,
+"step": "Zoom in on the Queen Wasp"
+},
+{
+"at": 0.5,
+"step": "Hold 3 s"
+},
+{
+"at": 3.5,
+"step": "Pan with her to the first nest she lays, keep zoom"
+},
+{
+"at": 14,
+"step": "Reset to the original framing for the swarm"
+}
+],
+"health": [
+"The Queen Wasp: 40%, so the fight ends inside the take"
+],
+"outcome": "She flies over the lawn, lays nests that send out wasps, calls more, and stabs with her needle.",
+"why": "A boss intro for the flying queen of the GNOME cast.",
+"tags": [
+"casts",
+"boss",
+"camera",
+"zoom-in",
+"pan",
+"health"
+],
+"notes": "CAMPAIGN LEVEL → L 10. CLEAR THE FIELD with CPU HOLD on (since r43 the hold also stops the tan riflemen that used to trickle in from the crate). Open the units board (U); the ENEMY CASTS tabs sit under the Sarges on BOTH columns. A cast dropped from the computer's column fights for the computer, from YOUR column for you. On a battleground a cast's health and hits follow UNIT LEVEL like a man's; in a park, a raid or a campaign level the computer's cast is the level's own figure and ignores it. TAP a tile (press and let go) to land him on a random clear spot on his own side. A nest comes every 6 s, two at most.",
+"id": "gnome-park/intros-and-spotlights/queen-lays-nests"
+},
+{
+"place": "outlaw-town",
+"type": "intros-and-spotlights",
+"title": "The Rattlesnake comes up under the line",
+"file": "rattlesnake-burrows",
+"orient": "portrait",
+"len": 22,
+"green": [
+{
+"unit": "Rifleman",
+"n": 5,
+"note": "a line about 250 px from the snake"
+}
+],
+"tan": [
+{
+"unit": "Rattlesnake",
+"n": 1,
+"note": "OUTLAW tab, the computer's column"
+}
+],
+"camera": [
+{
+"at": 0,
+"step": "Zoom in on the snake for the rattle"
+},
+{
+"at": 2,
+"step": "Reset to the original framing so the dig and the lunge both fit"
+},
+{
+"at": 8,
+"step": "Zoom in on the line as he comes up"
+},
+{
+"at": 14,
+"step": "Reset"
+}
+],
+"outcome": "He rattles, burrows, travels under the ground and lunges up under your men.",
+"why": "The cast's trap on legs, shown end to end.",
+"tags": [
+"casts",
+"camera",
+"zoom-in",
+"slapstick"
+],
+"notes": "PARK → western, rung 13 (the snake's rung), CPU HOLD on. Open the units board (U); the ENEMY CASTS tabs sit under the Sarges on BOTH columns. A cast dropped from the computer's column fights for the computer, from YOUR column for you. On a battleground a cast's health and hits follow UNIT LEVEL like a man's; in a park, a raid or a campaign level the computer's cast is the level's own figure and ignores it. TAP a tile (press and let go) to land him on a random clear spot on his own side. He digs about every 12 s and hunts men within 374 px; rehearse the timing of his first dig.",
+"id": "outlaw-town/intros-and-spotlights/rattlesnake-burrows"
+},
+{
+"place": "the-crossing",
+"type": "boss-fights",
+"title": "King Rex vs King Yeti",
+"file": "king-rex-vs-king-yeti",
+"orient": "both",
+"len": 30,
+"green": [
+{
+"unit": "King Rex",
+"n": 1,
+"note": "the DINO tab on YOUR column (the cast tile, not the hero tile above)"
+}
+],
+"tan": [
+{
+"unit": "King Yeti",
+"n": 1,
+"note": "the YETI tab on the computer's column: the SECOND King Yeti tile, the one that walks and throws (the first is the park's throne Yeti, who never moves)"
+}
+],
+"camera": [
+{
+"at": 0,
+"step": "Zoom in (about 2×) on the gap between them"
+},
+{
+"at": 0.5,
+"step": "Hold 4 s for the charge"
+},
+{
+"at": 4.5,
+"step": "Pan with the fight, keep zoom"
+},
+{
+"at": 22,
+"step": "Reset to the original framing for the end"
+}
+],
+"health": [
+"King Rex: 30%",
+"King Yeti: 30%, so one falls near 25 s (rehearse: both have 190 hits at full)"
+],
+"outcome": "Fire breath and a sprint against heavy snowballs: the two park kings on neutral grass.",
+"why": "The headline cast matchup, Wyatt's own example of casts fighting for either army.",
+"tags": [
+"casts",
+"boss",
+"health",
+"unit-level",
+"camera",
+"zoom-in",
+"pan",
+"ad-hook"
+],
+"notes": "BATTLEGROUND → crossing. Drop both on the SAME bank (see the place note). Open the units board (U); the ENEMY CASTS tabs sit under the Sarges on BOTH columns. A cast dropped from the computer's column fights for the computer, from YOUR column for you. On a battleground a cast's health and hits follow UNIT LEVEL like a man's; in a park, a raid or a campaign level the computer's cast is the level's own figure and ignores it. TAP a tile (press and let go) to land him on a random clear spot on his own side. Set UNIT LEVEL 50 before dropping either.",
+"id": "the-crossing/boss-fights/king-rex-vs-king-yeti"
+},
+{
+"place": "the-winter-field",
+"type": "boss-fights",
+"title": "Emperor Bear and his guard vs King Yeti",
+"file": "emperor-guard-vs-yeti",
+"orient": "landscape",
+"len": 30,
+"green": [
+{
+"unit": "Emperor Bear",
+"n": 1,
+"note": "the BEAR tab on YOUR column (the cast tile, not the hero)"
+},
+{
+"unit": "Honor Guard",
+"n": 2,
+"note": "BEAR tab, dropped right beside the Emperor"
+}
+],
+"tan": [
+{
+"unit": "King Yeti",
+"n": 1,
+"note": "YETI tab, the second King Yeti tile (the walking one)"
+},
+{
+"unit": "Snowman",
+"n": 2,
+"note": "YETI tab, behind him"
+}
+],
+"camera": [
+{
+"at": 0,
+"step": "Double-press Emperor Bear before R to pin the camera on him"
+},
+{
+"at": 0,
+"step": "Hold the pin the whole take"
+}
+],
+"health": [
+"King Yeti: 35%",
+"Emperor Bear: full"
+],
+"outcome": "The guards never shoot: they walk the Emperor in and dive in front of the snowballs meant for him.",
+"why": "The Honor Guard's one job, filmed with the camera riding the Emperor.",
+"tags": [
+"casts",
+"boss",
+"pin",
+"health",
+"unit-level",
+"snow"
+],
+"notes": "BATTLEGROUND → winter. Open the units board (U); the ENEMY CASTS tabs sit under the Sarges on BOTH columns. A cast dropped from the computer's column fights for the computer, from YOUR column for you. On a battleground a cast's health and hits follow UNIT LEVEL like a man's; in a park, a raid or a campaign level the computer's cast is the level's own figure and ignores it. TAP a tile (press and let go) to land him on a random clear spot on his own side. UNIT LEVEL 40 for everyone. A guard dives from 220 px, so keep the pair close to him.",
+"id": "the-winter-field/boss-fights/emperor-guard-vs-yeti"
+},
+{
+"place": "western-land",
+"type": "boss-fights",
+"title": "Buffalo Bill vs Commander Larson",
+"file": "bill-vs-larson",
+"orient": "portrait",
+"len": 28,
+"green": [
+{
+"unit": "Buffalo Bill",
+"n": 1,
+"note": "OUTLAW tab on YOUR column"
+}
+],
+"tan": [
+{
+"unit": "Commander Larson",
+"n": 1,
+"note": "OUTLAW tab, the computer's column; his four scouts come with him"
+}
+],
+"camera": [
+{
+"at": 0,
+"step": "Zoom in on Buffalo Bill"
+},
+{
+"at": 0.5,
+"step": "Hold 2 s"
+},
+{
+"at": 2.5,
+"step": "Pan right to Larson and his scouts, keep zoom"
+},
+{
+"at": 6,
+"step": "Reset to the original framing for the walk-in"
+},
+{
+"at": 15,
+"step": "Zoom in on whoever is winning"
+}
+],
+"health": [
+"Buffalo Bill: 50%",
+"Commander Larson: 50%"
+],
+"outcome": "Larson's long rifle and scouts open from 424 px; Bill walks through it to get his five-round bursts in at 190.",
+"why": "Two outlaw bosses who never meet in the game.",
+"tags": [
+"casts",
+"boss",
+"camera",
+"zoom-in",
+"pan",
+"health",
+"unit-level"
+],
+"notes": "BATTLEGROUND → western. Open the units board (U); the ENEMY CASTS tabs sit under the Sarges on BOTH columns. A cast dropped from the computer's column fights for the computer, from YOUR column for you. On a battleground a cast's health and hits follow UNIT LEVEL like a man's; in a park, a raid or a campaign level the computer's cast is the level's own figure and ignores it. TAP a tile (press and let go) to land him on a random clear spot on his own side. UNIT LEVEL 30. Start them about 350 px apart so Bill has ground to cross.",
+"id": "western-land/boss-fights/bill-vs-larson"
+},
+{
+"place": "the-lava-field",
+"type": "boss-fights",
+"title": "The Tin Rex vs The General",
+"file": "tin-rex-vs-general",
+"orient": "portrait",
+"len": 25,
+"green": [
+{
+"unit": "The Tin Rex",
+"n": 1,
+"note": "DINO tab on YOUR column"
+}
+],
+"tan": [
+{
+"unit": "The General",
+"n": 1,
+"note": "BEAR tab, the computer's column, about 300 px away on the same side of the lava"
+}
+],
+"camera": [
+{
+"at": 0,
+"step": "Zoom in (about 2.5×) on the gap between them"
+},
+{
+"at": 0.5,
+"step": "Hold through the charge"
+},
+{
+"at": 12,
+"step": "Zoom out to NORMAL"
+}
+],
+"health": [
+"The Tin Rex: 40%",
+"The General: 40%"
+],
+"outcome": "The General hesitates a beat, then charges; the Tin Rex answers with his stomp.",
+"why": "Two mid-size bosses with one move each: a charge and a stomp.",
+"tags": [
+"casts",
+"boss",
+"health",
+"unit-level",
+"camera",
+"zoom-in"
+],
+"notes": "BATTLEGROUND → lava. Open the units board (U); the ENEMY CASTS tabs sit under the Sarges on BOTH columns. A cast dropped from the computer's column fights for the computer, from YOUR column for you. On a battleground a cast's health and hits follow UNIT LEVEL like a man's; in a park, a raid or a campaign level the computer's cast is the level's own figure and ignores it. TAP a tile (press and let go) to land him on a random clear spot on his own side. UNIT LEVEL 30. The General's charge starts at 170 px; the stomp reaches 100.",
+"id": "the-lava-field/boss-fights/tin-rex-vs-general"
+},
+{
+"place": "king-rexs-lair",
+"type": "boss-fights",
+"title": "The Queen Wasp takes on King Rex",
+"file": "queen-wasp-vs-rex",
+"orient": "portrait",
+"len": 30,
+"green": [
+{
+"unit": "The Queen Wasp",
+"n": 1,
+"note": "GNOME tab on YOUR column"
+},
+{
+"unit": "Wasp",
+"n": 4,
+"note": "GNOME tab on YOUR column, around her"
+}
+],
+"tan": [
+{
+"unit": "King Rex (CPU boss)",
+"n": 1,
+"note": "the raid's own boss tile"
+}
+],
+"camera": [
+{
+"at": 0,
+"step": "Zoom in on King Rex"
+},
+{
+"at": 0.5,
+"step": "Hold 2 s"
+},
+{
+"at": 2.5,
+"step": "Pan to the queen and her wasps, keep zoom"
+},
+{
+"at": 5,
+"step": "Reset to the original framing"
+}
+],
+"health": [
+"King Rex (CPU boss): 25%",
+"The Queen Wasp: full"
+],
+"outcome": "Wasps dive and sting (a sting stuns 2 s) while the queen needles and lays nests; the fire cone answers whatever it can reach.",
+"why": "A flying cast against the lair's own fire-breather.",
+"tags": [
+"casts",
+"boss",
+"health",
+"camera",
+"zoom-in",
+"pan"
+],
+"notes": "RAID → bone, tier h. CLEAR THE FIELD with CPU HOLD on, drop the boss tile, then the GNOME cast from YOUR column. Open the units board (U); the ENEMY CASTS tabs sit under the Sarges on BOTH columns. A cast dropped from the computer's column fights for the computer, from YOUR column for you. On a battleground a cast's health and hits follow UNIT LEVEL like a man's; in a park, a raid or a campaign level the computer's cast is the level's own figure and ignores it. TAP a tile (press and let go) to land him on a random clear spot on his own side. Wasps have 2 hits each: rehearse, and retake if the cone clears them before a nest lands.",
+"id": "king-rexs-lair/boss-fights/queen-wasp-vs-rex"
+},
+{
+"place": "mom-alert",
+"type": "boss-fights",
+"title": "King Rex takes a bite at Mom",
+"file": "king-rex-bites-mom",
+"orient": "portrait",
+"len": 35,
+"green": [
+{
+"unit": "King Rex",
+"n": 1,
+"note": "DINO tab on YOUR column: the cast tile, fighting for you"
+},
+{
+"unit": "Rifleman",
+"n": 4,
+"note": "behind him"
+}
+],
+"tan": [],
+"camera": [
+{
+"at": 0,
+"step": "Double-press King Rex before R to pin the camera on him"
+},
+{
+"at": 0,
+"step": "Hold the pin through Mom's rounds"
+}
+],
+"outcome": "The king breathes fire at Mom while she plays her three rounds over the house.",
+"why": "A park boss on your side against the one boss who is never a tile.",
+"tags": [
+"casts",
+"boss",
+"pin"
+],
+"notes": "MOM ALERT. CPU HOLD OFF so Mom plays. Open the units board (U); the ENEMY CASTS tabs sit under the Sarges on BOTH columns. A cast dropped from the computer's column fights for the computer, from YOUR column for you. On a battleground a cast's health and hits follow UNIT LEVEL like a man's; in a park, a raid or a campaign level the computer's cast is the level's own figure and ignores it. TAP a tile (press and let go) to land him on a random clear spot on his own side. Rehearse: her rounds decide the clip's timing.",
+"id": "mom-alert/boss-fights/king-rex-bites-mom"
+},
+{
+"place": "high-noon-desert",
+"type": "sarge-battles",
+"title": "Madam Cathrine vs the Pistols Sarge",
+"file": "cathrine-vs-pistols",
+"orient": "portrait",
+"len": 22,
+"green": [
+{
+"unit": "Pistols (Sarge)",
+"n": 1,
+"note": "about 350 px from her"
+}
+],
+"tan": [
+{
+"unit": "Madam Cathrine",
+"n": 1,
+"note": "OUTLAW tab, the computer's column"
+}
+],
+"camera": [
+{
+"at": 0,
+"step": "Zoom in (about 2×) on the gap between them"
+},
+{
+"at": 0.5,
+"step": "Hold through the dash"
+},
+{
+"at": 14,
+"step": "Reset to the original framing"
+}
+],
+"health": [
+"Madam Cathrine: 15% (she has 200 hits at full; Pistols does about 20 a second)",
+"Pistols (Sarge): full"
+],
+"outcome": "She opens fire from 280 px with her 46-px boom; the Sarge has to close through it to get his pistols working.",
+"why": "A Sarge duel against a cast boss on the open sand.",
+"tags": [
+"casts",
+"sarge",
+"boss",
+"health",
+"camera",
+"zoom-in"
+],
+"notes": "CAMPAIGN LEVEL → L 50. CLEAR THE FIELD with CPU HOLD on. Open the units board (U); the ENEMY CASTS tabs sit under the Sarges on BOTH columns. A cast dropped from the computer's column fights for the computer, from YOUR column for you. On a battleground a cast's health and hits follow UNIT LEVEL like a man's; in a park, a raid or a campaign level the computer's cast is the level's own figure and ignores it. TAP a tile (press and let go) to land him on a random clear spot on his own side. Always rehearse a Sarge duel: Pistols is deadlier than he looks.",
+"id": "high-noon-desert/sarge-battles/cathrine-vs-pistols"
+},
+{
+"place": "bear-park",
+"type": "story-moments",
+"title": "The Honor Guard takes the bullet",
+"file": "guard-takes-bullet",
+"orient": "portrait",
+"len": 15,
+"start": 3,
+"green": [
+{
+"unit": "Sniper (Sarge)",
+"n": 1,
+"note": "about 380 px from the Emperor, inside his 408 reach"
+}
+],
+"tan": [
+{
+"unit": "Emperor Bear",
+"n": 1,
+"note": "BEAR tab, the computer's column"
+},
+{
+"unit": "Honor Guard",
+"n": 2,
+"note": "BEAR tab, within 200 px of the Emperor"
+}
+],
+"camera": [
+{
+"at": 0,
+"step": "Zoom in tight on the Emperor and his two guards"
+},
+{
+"at": 0.5,
+"step": "Hold through the battle start and the first shot"
+},
+{
+"at": 9,
+"step": "Reset to the original framing"
+}
+],
+"health": [
+"Honor Guard: full",
+"Emperor Bear: full"
+],
+"outcome": "The Sniper fires first and a guard dives in front of the round meant for the Emperor.",
+"why": "One shot, one dive: the cast's bodyguard moment.",
+"tags": [
+"casts",
+"boss",
+"sarge",
+"start-timer",
+"camera",
+"zoom-in",
+"quick"
+],
+"notes": "PARK → teddy, rung 20, CPU HOLD on. Open the units board (U); the ENEMY CASTS tabs sit under the Sarges on BOTH columns. A cast dropped from the computer's column fights for the computer, from YOUR column for you. On a battleground a cast's health and hits follow UNIT LEVEL like a man's; in a park, a raid or a campaign level the computer's cast is the level's own figure and ignores it. TAP a tile (press and let go) to land him on a random clear spot on his own side. A guard dives from 220 px; retake until the dive lands in frame.",
+"id": "bear-park/story-moments/guard-takes-bullet"
+},
+{
+"place": "gnome-park",
+"type": "story-moments",
+"title": "The Fairy keeps the knights up",
+"file": "fairy-heals-knights",
+"orient": "portrait",
+"len": 30,
+"green": [
+{
+"unit": "Rifleman",
+"n": 6,
+"note": "a line facing the knights"
+}
+],
+"tan": [
+{
+"unit": "Gnome Knight",
+"n": 2,
+"note": "GNOME tab, the computer's column, in front"
+},
+{
+"unit": "Gnome",
+"n": 2,
+"note": "GNOME tab, beside the knights"
+},
+{
+"unit": "Fairy",
+"n": 1,
+"note": "GNOME tab, dropped right behind the knights (she hovers within 80 px of where she lands)"
+}
+],
+"camera": [
+{
+"at": 0,
+"step": "Zoom in (about 2.2×) on the fairy and the knights"
+},
+{
+"at": 0.5,
+"step": "Hold 4 s"
+},
+{
+"at": 10,
+"step": "Reset to the original framing"
+}
+],
+"health": [
+"Gnome Knight: 50%",
+"Fairy: full"
+],
+"outcome": "Her heal keeps two shielded knights standing against six rifles until a rifleman works round behind them.",
+"why": "The healer of the GNOME cast, doing her one job under fire.",
+"tags": [
+"casts",
+"health",
+"camera",
+"zoom-in"
+],
+"notes": "CAMPAIGN LEVEL → L 10. CLEAR THE FIELD with CPU HOLD on. Open the units board (U); the ENEMY CASTS tabs sit under the Sarges on BOTH columns. A cast dropped from the computer's column fights for the computer, from YOUR column for you. On a battleground a cast's health and hits follow UNIT LEVEL like a man's; in a park, a raid or a campaign level the computer's cast is the level's own figure and ignores it. TAP a tile (press and let go) to land him on a random clear spot on his own side. She heals 1 hit a second inside 120 px and never attacks.",
+"id": "gnome-park/story-moments/fairy-heals-knights"
+},
+{
+"place": "outlaw-town",
+"type": "story-moments",
+"title": "The Outlaw Mouse sneaks round the line",
+"file": "mouse-sneaks-round",
+"orient": "portrait",
+"len": 20,
+"green": [
+{
+"unit": "Rifleman",
+"n": 4,
+"note": "a line with open ground on both ends"
+},
+{
+"unit": "M. Gunner",
+"n": 1
+}
+],
+"tan": [
+{
+"unit": "Outlaw Mouse",
+"n": 1,
+"note": "OUTLAW tab, the computer's column"
+},
+{
+"unit": "Outlaw",
+"n": 2,
+"note": "OUTLAW tab, in front of the mouse to keep the riflemen busy"
+}
+],
+"camera": [
+{
+"at": 0,
+"step": "Double-press the Outlaw Mouse before R to pin the camera on him"
+},
+{
+"at": 0,
+"step": "Hold the pin through his run"
+}
+],
+"outcome": "After 5 s he sprints wide round the line and drops a mine behind it.",
+"why": "The cast's sneak, filmed from his own back.",
+"tags": [
+"casts",
+"pin",
+"slapstick",
+"traps"
+],
+"notes": "PARK → western, rung 12, CPU HOLD on. Open the units board (U); the ENEMY CASTS tabs sit under the Sarges on BOTH columns. A cast dropped from the computer's column fights for the computer, from YOUR column for you. On a battleground a cast's health and hits follow UNIT LEVEL like a man's; in a park, a raid or a campaign level the computer's cast is the level's own figure and ignores it. TAP a tile (press and let go) to land him on a random clear spot on his own side. He sneaks at 5 s, 330 px wide at speed 210: leave him room on one end of the line.",
+"id": "outlaw-town/story-moments/mouse-sneaks-round"
+},
+{
+"place": "the-pillow-fields",
+"type": "story-moments",
+"title": "Sarge Gruffle rallies the bears",
+"file": "gruffle-rallies-bears",
+"orient": "landscape",
+"len": 25,
+"start": 2,
+"green": [
+{
+"unit": "Rifleman",
+"n": 6,
+"note": "holding a bridge end"
+},
+{
+"unit": "M. Gunner",
+"n": 1
+}
+],
+"tan": [
+{
+"unit": "Sarge Gruffle",
+"n": 1,
+"note": "BEAR tab, the computer's column, behind his cubs"
+},
+{
+"unit": "Cub Scout",
+"n": 6,
+"note": "BEAR tab, in front of him"
+},
+{
+"unit": "Private Snugg",
+"n": 2,
+"note": "BEAR tab, beside him"
+}
+],
+"camera": [
+{
+"at": 0,
+"step": "Zoom in on Sarge Gruffle"
+},
+{
+"at": 0.5,
+"step": "Hold 2 s for the HUP"
+},
+{
+"at": 2.5,
+"step": "Pan with the rush toward the bridge, keep zoom"
+},
+{
+"at": 10,
+"step": "Reset to the original framing"
+}
+],
+"outcome": "He never fires: his rally (every 7 s, 4 s long) throws the cubs over the bridge in a wave.",
+"why": "The officer of the BEAR cast, and what his shout does to a charge.",
+"tags": [
+"casts",
+"start-timer",
+"camera",
+"zoom-in",
+"pan"
+],
+"notes": "RAID → fields, tier e. CLEAR THE FIELD with CPU HOLD on. Open the units board (U); the ENEMY CASTS tabs sit under the Sarges on BOTH columns. A cast dropped from the computer's column fights for the computer, from YOUR column for you. On a battleground a cast's health and hits follow UNIT LEVEL like a man's; in a park, a raid or a campaign level the computer's cast is the level's own figure and ignores it. TAP a tile (press and let go) to land him on a random clear spot on his own side. Cubs pounce from 150 px: start them about 300 px from the riflemen.",
+"id": "the-pillow-fields/story-moments/gruffle-rallies-bears"
+},
+{
+"place": "dino-park",
+"type": "story-moments",
+"title": "The Monster Egg hatches behind the line",
+"file": "egg-hatches-behind-line",
+"orient": "portrait",
+"len": 20,
+"green": [
+{
+"unit": "Rifleman",
+"n": 5,
+"note": "a line facing right"
+}
+],
+"tan": [
+{
+"unit": "Monster Egg",
+"n": 2,
+"note": "DINO tab, dropped BEHIND the line (to its left)"
+},
+{
+"unit": "Little Dino",
+"n": 3,
+"note": "DINO tab, in front of the line to hold its fire"
+}
+],
+"camera": [
+{
+"at": 0,
+"step": "Zoom in on the eggs"
+},
+{
+"at": 0.5,
+"step": "Hold 3 s as they creep"
+},
+{
+"at": 3.5,
+"step": "Reset to the original framing for the fight in front"
+},
+{
+"at": 10,
+"step": "Zoom in on the eggs for the hatch"
+},
+{
+"at": 15,
+"step": "Reset"
+}
+],
+"outcome": "The eggs creep up behind the riflemen and hatch about 10 s in, while the line is busy in front.",
+"why": "The cast's slow-burn ambush, set up with where you drop two tiles.",
+"tags": [
+"casts",
+"camera",
+"zoom-in",
+"slapstick"
+],
+"notes": "PARK → dino, rung 3, CPU HOLD on. Open the units board (U); the ENEMY CASTS tabs sit under the Sarges on BOTH columns. A cast dropped from the computer's column fights for the computer, from YOUR column for you. On a battleground a cast's health and hits follow UNIT LEVEL like a man's; in a park, a raid or a campaign level the computer's cast is the level's own figure and ignores it. TAP a tile (press and let go) to land him on a random clear spot on his own side. An egg creeps at 16 px/s and hatches after about 10 s.",
+"id": "dino-park/story-moments/egg-hatches-behind-line"
+},
+{
+"place": "the-winter-field",
+"type": "outnumbered",
+"title": "Twenty munchkin yetis rush one gunner",
+"file": "munchkins-rush-gunner",
+"orient": "portrait",
+"len": 15,
+"green": [
+{
+"unit": "M. Gunner",
+"n": 1,
+"note": "dropped at UNIT LEVEL 50"
+},
+{
+"unit": "Medic",
+"n": 1,
+"note": "behind him"
+}
+],
+"tan": [
+{
+"unit": "Munchkin Yeti",
+"n": 20,
+"note": "YETI tab, the computer's column, dropped at UNIT LEVEL 10: TAP the tile twenty times"
+}
+],
+"camera": [
+{
+"at": 0,
+"step": "Zoom in (about 2×) on the gunner"
+},
+{
+"at": 0.5,
+"step": "Hold through the rush"
+},
+{
+"at": 8,
+"step": "Zoom out to NORMAL to count the pile"
+}
+],
+"outcome": "Speed-140 pounces against a rooted burst: count how many get through.",
+"why": "The count is the hook, and the first use of TAP to fill a side fast.",
+"tags": [
+"casts",
+"outnumbered",
+"unit-level",
+"snow",
+"camera",
+"zoom-in",
+"quick"
+],
+"notes": "BATTLEGROUND → winter. Open the units board (U); the ENEMY CASTS tabs sit under the Sarges on BOTH columns. A cast dropped from the computer's column fights for the computer, from YOUR column for you. On a battleground a cast's health and hits follow UNIT LEVEL like a man's; in a park, a raid or a campaign level the computer's cast is the level's own figure and ignores it. TAP a tile (press and let go) to land him on a random clear spot on his own side. UNIT LEVEL is fixed when a tile is dropped: set 50, drop the gunner and medic, then set 10 and tap the yetis.",
+"id": "the-winter-field/outnumbered/munchkins-rush-gunner"
+},
+{
+"place": "bedroom-rug",
+"type": "outnumbered",
+"title": "Cub scouts swarm a Heavy Tank",
+"file": "cubs-swarm-tank",
+"orient": "portrait",
+"len": 20,
+"green": [
+{
+"unit": "Heavy Tank",
+"n": 1
+}
+],
+"tan": [
+{
+"unit": "Cub Scout",
+"n": 15,
+"note": "BEAR tab, the computer's column: TAP the tile fifteen times"
+},
+{
+"unit": "Para Teddy",
+"n": 2,
+"note": "BEAR tab; they come down on parachutes"
+}
+],
+"camera": [
+{
+"at": 0,
+"step": "Zoom in (about 2×) on the tank"
+},
+{
+"at": 0.5,
+"step": "Hold while the cubs pile on"
+},
+{
+"at": 10,
+"step": "Zoom out to NORMAL"
+}
+],
+"outcome": "Two paras float in, then fifteen cubs climb all over the tank.",
+"why": "A crowd of the smallest cast tile against the biggest green unit.",
+"tags": [
+"casts",
+"outnumbered",
+"vehicles",
+"camera",
+"zoom-in",
+"slapstick"
+],
+"notes": "CAMPAIGN LEVEL → L 1. CLEAR THE FIELD with CPU HOLD on. Open the units board (U); the ENEMY CASTS tabs sit under the Sarges on BOTH columns. A cast dropped from the computer's column fights for the computer, from YOUR column for you. On a battleground a cast's health and hits follow UNIT LEVEL like a man's; in a park, a raid or a campaign level the computer's cast is the level's own figure and ignores it. TAP a tile (press and let go) to land him on a random clear spot on his own side. A Para Teddy takes 3 s to land.",
+"id": "bedroom-rug/outnumbered/cubs-swarm-tank"
+},
+{
+"place": "the-lava-field",
+"type": "mirror-matches",
+"title": "Gnome knights clash, 4v4",
+"file": "knights-clash",
+"orient": "portrait",
+"len": 25,
+"green": [
+{
+"unit": "Gnome Knight",
+"n": 4,
+"note": "GNOME tab on YOUR column"
+}
+],
+"tan": [
+{
+"unit": "Gnome Knight",
+"n": 4,
+"note": "GNOME tab on the computer's column, same side of the lava"
+}
+],
+"camera": [
+{
+"at": 0,
+"step": "Zoom in (about 2×) on the middle"
+},
+{
+"at": 0.5,
+"step": "Hold through the grind"
+},
+{
+"at": 12,
+"step": "Reset to the original framing"
+}
+],
+"outcome": "Shield against shield, jab against jab: a slow grind where every other hit bounces.",
+"why": "The one cast unit that blocks, mirrored.",
+"tags": [
+"casts",
+"mirror",
+"unit-level",
+"camera",
+"zoom-in"
+],
+"notes": "BATTLEGROUND → lava. Open the units board (U); the ENEMY CASTS tabs sit under the Sarges on BOTH columns. A cast dropped from the computer's column fights for the computer, from YOUR column for you. On a battleground a cast's health and hits follow UNIT LEVEL like a man's; in a park, a raid or a campaign level the computer's cast is the level's own figure and ignores it. TAP a tile (press and let go) to land him on a random clear spot on his own side. UNIT LEVEL 20 for both.",
+"id": "the-lava-field/mirror-matches/knights-clash"
+},
+{
+"place": "the-rooftop",
+"type": "mirror-matches",
+"title": "Hornets vs hornets over the roof",
+"file": "hornets-duel",
+"orient": "portrait",
+"len": 18,
+"green": [
+{
+"unit": "Hornet",
+"n": 3,
+"note": "GNOME tab on YOUR column"
+}
+],
+"tan": [
+{
+"unit": "Hornet",
+"n": 3,
+"note": "GNOME tab on the computer's column"
+}
+],
+"camera": [
+{
+"at": 0,
+"step": "Hold wide for the whole take: they dive in from both sides"
+}
+],
+"outcome": "Dives and three-pip stings over a roof with nothing to hide behind.",
+"why": "Flyers mirrored where the ground does not matter.",
+"tags": [
+"casts",
+"mirror",
+"unit-level",
+"quick"
+],
+"notes": "BATTLEGROUND → rooftop. Open the units board (U); the ENEMY CASTS tabs sit under the Sarges on BOTH columns. A cast dropped from the computer's column fights for the computer, from YOUR column for you. On a battleground a cast's health and hits follow UNIT LEVEL like a man's; in a park, a raid or a campaign level the computer's cast is the level's own figure and ignores it. TAP a tile (press and let go) to land him on a random clear spot on his own side. UNIT LEVEL 20. The eaves do not catch a flyer.",
+"id": "the-rooftop/mirror-matches/hornets-duel"
+},
+{
+"place": "the-crossing",
+"type": "unit-matchups",
+"title": "Yetis vs Dinos",
+"file": "yetis-vs-dinos",
+"orient": "both",
+"len": 30,
+"green": [
+{
+"unit": "Munchkin Yeti",
+"n": 6,
+"note": "YETI tab on YOUR column"
+},
+{
+"unit": "Big Yeti",
+"n": 2,
+"note": "YETI tab on YOUR column"
+},
+{
+"unit": "Snowman",
+"n": 2,
+"note": "YETI tab on YOUR column, at the back"
+}
+],
+"tan": [
+{
+"unit": "Little Dino",
+"n": 6,
+"note": "DINO tab on the computer's column"
+},
+{
+"unit": "Big Dino",
+"n": 2,
+"note": "DINO tab"
+},
+{
+"unit": "Spitter",
+"n": 2,
+"note": "DINO tab, at the back"
+}
+],
+"camera": [
+{
+"at": 0,
+"step": "Hold wide"
+},
+{
+"at": 5,
+"step": "Zoom in on the clash"
+},
+{
+"at": 18,
+"step": "Reset to the original framing"
+}
+],
+"outcome": "Pounces against sprints up front; snowballs and spit globs slowing each other behind.",
+"why": "Wyatt's own example for the casts: \"Yetis against Dinos\".",
+"tags": [
+"casts",
+"camera",
+"zoom-in",
+"unit-level",
+"ad-hook"
+],
+"notes": "BATTLEGROUND → crossing. Both packs on the SAME bank (see the place note). Open the units board (U); the ENEMY CASTS tabs sit under the Sarges on BOTH columns. A cast dropped from the computer's column fights for the computer, from YOUR column for you. On a battleground a cast's health and hits follow UNIT LEVEL like a man's; in a park, a raid or a campaign level the computer's cast is the level's own figure and ignores it. TAP a tile (press and let go) to land him on a random clear spot on his own side. UNIT LEVEL 20. TAP the tiles to fill both packs fast.",
+"id": "the-crossing/unit-matchups/yetis-vs-dinos"
+},
+{
+"place": "the-backyard",
+"type": "unit-matchups",
+"title": "Bears vs Outlaws",
+"file": "bears-vs-outlaws",
+"orient": "landscape",
+"len": 30,
+"green": [
+{
+"unit": "Private Snugg",
+"n": 4,
+"note": "BEAR tab on YOUR column"
+},
+{
+"unit": "Royalist",
+"n": 3,
+"note": "BEAR tab on YOUR column"
+},
+{
+"unit": "Big Ted Wallow",
+"n": 1,
+"note": "BEAR tab on YOUR column"
+}
+],
+"tan": [
+{
+"unit": "Outlaw",
+"n": 4,
+"note": "OUTLAW tab on the computer's column"
+},
+{
+"unit": "Outlaw Rider",
+"n": 2,
+"note": "OUTLAW tab"
+},
+{
+"unit": "Teddy Outlaw",
+"n": 1,
+"note": "OUTLAW tab"
+}
+],
+"camera": [
+{
+"at": 0,
+"step": "Zoom in a little (about 1.6×) on the middle"
+},
+{
+"at": 0.5,
+"step": "Pan slowly along the front, keep zoom"
+},
+{
+"at": 20,
+"step": "Reset to the original framing"
+}
+],
+"outcome": "Cork guns against six-shooters, with the riders ramming through and Wallow stomping.",
+"why": "Two casts that live on opposite sides of the game, on one mat.",
+"tags": [
+"casts",
+"unit-level",
+"camera",
+"zoom-in",
+"pan"
+],
+"notes": "BATTLEGROUND → backyard. Open the units board (U); the ENEMY CASTS tabs sit under the Sarges on BOTH columns. A cast dropped from the computer's column fights for the computer, from YOUR column for you. On a battleground a cast's health and hits follow UNIT LEVEL like a man's; in a park, a raid or a campaign level the computer's cast is the level's own figure and ignores it. TAP a tile (press and let go) to land him on a random clear spot on his own side. UNIT LEVEL 20. Riders are fast (96) and ram at 52 px.",
+"id": "the-backyard/unit-matchups/bears-vs-outlaws"
+},
+{
+"place": "stone-row",
+"type": "unit-matchups",
+"title": "Gnome knights vs ten little dinos",
+"file": "knights-vs-little-dinos",
+"orient": "portrait",
+"len": 22,
+"green": [
+{
+"unit": "Gnome Knight",
+"n": 3,
+"note": "GNOME tab on YOUR column, in front"
+},
+{
+"unit": "Gnome",
+"n": 3,
+"note": "GNOME tab on YOUR column, behind"
+}
+],
+"tan": [
+{
+"unit": "Little Dino",
+"n": 10,
+"note": "DINO tab on the computer's column: TAP the tile ten times"
+}
+],
+"camera": [
+{
+"at": 0,
+"step": "Zoom in (about 2×) on the knights"
+},
+{
+"at": 0.5,
+"step": "Hold through the sprints"
+},
+{
+"at": 10,
+"step": "Reset to the original framing"
+}
+],
+"outcome": "The shields take the first sprints; the jabs finish the dinos one by one.",
+"why": "Blockers against the fastest rushers in the casts.",
+"tags": [
+"casts",
+"unit-level",
+"camera",
+"zoom-in",
+"outnumbered"
+],
+"notes": "BATTLEGROUND → stone. Open the units board (U); the ENEMY CASTS tabs sit under the Sarges on BOTH columns. A cast dropped from the computer's column fights for the computer, from YOUR column for you. On a battleground a cast's health and hits follow UNIT LEVEL like a man's; in a park, a raid or a campaign level the computer's cast is the level's own figure and ignores it. TAP a tile (press and let go) to land him on a random clear spot on his own side. UNIT LEVEL 20. A little dino sprints from 180 px.",
+"id": "stone-row/unit-matchups/knights-vs-little-dinos"
+},
+{
+"place": "the-spill",
+"type": "unit-matchups",
+"title": "The Big Triceratops rams a Heavy Tank",
+"file": "trike-rams-tank",
+"orient": "portrait",
+"len": 18,
+"green": [
+{
+"unit": "Heavy Tank",
+"n": 1
+}
+],
+"tan": [
+{
+"unit": "Big Triceratops",
+"n": 1,
+"note": "DINO tab, the computer's column, about 400 px from the tank on the same side of the streams"
+}
+],
+"camera": [
+{
+"at": 0,
+"step": "Zoom in (about 2×) on the gap between them"
+},
+{
+"at": 0.5,
+"step": "Hold through the ram"
+},
+{
+"at": 10,
+"step": "Reset to the original framing"
+}
+],
+"health": [
+"Heavy Tank: 60%",
+"Big Triceratops: full"
+],
+"outcome": "He braces, dashes 470 px and rams the tank; the tank's gun answers over the top.",
+"why": "The heaviest cast charger against the heaviest green unit.",
+"tags": [
+"casts",
+"vehicles",
+"health",
+"unit-level",
+"camera",
+"zoom-in"
+],
+"notes": "BATTLEGROUND → spill. Open the units board (U); the ENEMY CASTS tabs sit under the Sarges on BOTH columns. A cast dropped from the computer's column fights for the computer, from YOUR column for you. On a battleground a cast's health and hits follow UNIT LEVEL like a man's; in a park, a raid or a campaign level the computer's cast is the level's own figure and ignores it. TAP a tile (press and let go) to land him on a random clear spot on his own side. UNIT LEVEL 30. His ram starts at 450 px: drop him inside that.",
+"id": "the-spill/unit-matchups/trike-rams-tank"
+},
+{
+"place": "dino-park",
+"type": "unit-matchups",
+"title": "Pterodactyls dive on the column",
+"file": "pteros-dive-column",
+"orient": "portrait",
+"len": 20,
+"green": [
+{
+"unit": "Rifleman",
+"n": 8,
+"note": "a column, two wide"
+}
+],
+"tan": [
+{
+"unit": "Pterodactyl",
+"n": 4,
+"note": "DINO tab, the computer's column, about 300 px off"
+}
+],
+"camera": [
+{
+"at": 0,
+"step": "Hold wide for the first dive"
+},
+{
+"at": 4,
+"step": "Zoom in on the column"
+},
+{
+"at": 12,
+"step": "Reset to the original framing"
+}
+],
+"outcome": "Four flyers dive on the column from 260 px, climb and come again; the rifles answer between dives.",
+"why": "The cast's own air attack, without a plane.",
+"tags": [
+"casts",
+"camera",
+"zoom-in"
+],
+"notes": "PARK → dino, rung 5, CPU HOLD on. Open the units board (U); the ENEMY CASTS tabs sit under the Sarges on BOTH columns. A cast dropped from the computer's column fights for the computer, from YOUR column for you. On a battleground a cast's health and hits follow UNIT LEVEL like a man's; in a park, a raid or a campaign level the computer's cast is the level's own figure and ignores it. TAP a tile (press and let go) to land him on a random clear spot on his own side. A pterodactyl has 2 hits: rifles bring them down, bazookas cannot.",
+"id": "dino-park/unit-matchups/pteros-dive-column"
+},
+{
+"place": "the-hill-village",
+"type": "unit-matchups",
+"title": "Outlaw riders vs scout jeeps",
+"file": "riders-vs-jeeps",
+"orient": "landscape",
+"len": 22,
+"green": [
+{
+"unit": "Scout Jeep",
+"n": 3
+}
+],
+"tan": [
+{
+"unit": "Outlaw Rider",
+"n": 4,
+"note": "OUTLAW tab, the computer's column, between the jeeps and the computer's box"
+}
+],
+"camera": [
+{
+"at": 0,
+"step": "Zoom in a little (about 1.5×) on the jeeps"
+},
+{
+"at": 0.5,
+"step": "Pan with the jeeps, keep zoom"
+},
+{
+"at": 14,
+"step": "Reset to the original framing"
+}
+],
+"outcome": "Riders at speed 96 firing from the saddle against jeeps that drive straight at them.",
+"why": "The two fastest things on wheels and hooves.",
+"tags": [
+"casts",
+"vehicles",
+"unit-level",
+"camera",
+"pan",
+"fast-take"
+],
+"notes": "BATTLEGROUND → pbvhill. Open the units board (U); the ENEMY CASTS tabs sit under the Sarges on BOTH columns. A cast dropped from the computer's column fights for the computer, from YOUR column for you. On a battleground a cast's health and hits follow UNIT LEVEL like a man's; in a park, a raid or a campaign level the computer's cast is the level's own figure and ignores it. TAP a tile (press and let go) to land him on a random clear spot on his own side. UNIT LEVEL 20. Jeeps drive into the computer's box, so the riders must stand in their road. The lower half of this tall map cannot be reached by a board drag (seen 11/6).",
+"id": "the-hill-village/unit-matchups/riders-vs-jeeps"
+},
+{
+"place": "the-door-snake",
+"type": "unit-matchups",
+"title": "Stegosaurus vs the mortars",
+"file": "stego-vs-mortars",
+"orient": "portrait",
+"len": 25,
+"green": [
+{
+"unit": "Mortar",
+"n": 2,
+"note": "about 350 px from the stegosaurus"
+},
+{
+"unit": "Rifleman",
+"n": 2,
+"note": "in front of the mortars as guards"
+}
+],
+"tan": [
+{
+"unit": "Stegosaurus",
+"n": 1,
+"note": "DINO tab, the computer's column"
+},
+{
+"unit": "Spitter",
+"n": 1,
+"note": "DINO tab, beside him"
+}
+],
+"camera": [
+{
+"at": 0,
+"step": "Zoom in on the stegosaurus for the first throw"
+},
+{
+"at": 0.5,
+"step": "Hold 3.5 s"
+},
+{
+"at": 4,
+"step": "Pan along the boulder's flight to the mortars, keep zoom"
+},
+{
+"at": 8,
+"step": "Reset to the original framing"
+}
+],
+"health": [
+"Stegosaurus: full",
+"Mortar: full"
+],
+"outcome": "Boulders from 400 px against shells from 408: an artillery duel down the hall.",
+"why": "The cast's artillery piece against yours.",
+"tags": [
+"casts",
+"unit-level",
+"health",
+"camera",
+"zoom-in",
+"pan"
+],
+"notes": "BATTLEGROUND → pbsnake. Open the units board (U); the ENEMY CASTS tabs sit under the Sarges on BOTH columns. A cast dropped from the computer's column fights for the computer, from YOUR column for you. On a battleground a cast's health and hits follow UNIT LEVEL like a man's; in a park, a raid or a campaign level the computer's cast is the level's own figure and ignores it. TAP a tile (press and let go) to land him on a random clear spot on his own side. UNIT LEVEL 30. He cannot throw inside 120 px: keep the guards back too.",
+"id": "the-door-snake/unit-matchups/stego-vs-mortars"
+},
+{
+"place": "yeti-park",
+"type": "unit-matchups",
+"title": "Snowmen vs spitters: the slow-glob duel",
+"file": "snowmen-vs-spitters",
+"orient": "portrait",
+"len": 24,
+"green": [
+{
+"unit": "Spitter",
+"n": 4,
+"note": "DINO tab on YOUR column"
+}
+],
+"tan": [
+{
+"unit": "Snowman",
+"n": 4,
+"note": "YETI tab on the computer's column, about 250 px from the spitters"
+}
+],
+"camera": [
+{
+"at": 0,
+"step": "Zoom in (about 2×) on the middle"
+},
+{
+"at": 0.5,
+"step": "Hold the whole trade"
+}
+],
+"outcome": "Both sides fire globs that slow the other: nobody moves fast and nobody closes.",
+"why": "The two slowing units of the casts, against each other at a park.",
+"tags": [
+"casts",
+"snow",
+"camera",
+"zoom-in"
+],
+"notes": "PARK → yeti, rung 5, CPU HOLD on. Open the units board (U); the ENEMY CASTS tabs sit under the Sarges on BOTH columns. A cast dropped from the computer's column fights for the computer, from YOUR column for you. On a battleground a cast's health and hits follow UNIT LEVEL like a man's; in a park, a raid or a campaign level the computer's cast is the level's own figure and ignores it. TAP a tile (press and let go) to land him on a random clear spot on his own side. Both fire from 240-280 px, so the trade starts at once.",
+"id": "yeti-park/unit-matchups/snowmen-vs-spitters"
+},
+{
+"place": "the-ice-castle",
+"type": "unit-matchups",
+"title": "Cave yetis leap at the riflemen",
+"file": "cave-yetis-leap",
+"orient": "portrait",
+"len": 20,
+"start": 2,
+"green": [
+{
+"unit": "Rifleman",
+"n": 6,
+"note": "within about 150 px of the yetis"
+}
+],
+"tan": [
+{
+"unit": "Cave Yeti",
+"n": 3,
+"note": "YETI tab, the computer's column"
+},
+{
+"unit": "Cave Spearman",
+"n": 2,
+"note": "YETI tab"
+},
+{
+"unit": "Cave Fisher",
+"n": 1,
+"note": "YETI tab, at the back: he stands and lobs fish"
+}
+],
+"camera": [
+{
+"at": 0,
+"step": "Zoom in (about 2×) on the yetis"
+},
+{
+"at": 0.5,
+"step": "Hold through the battle start"
+},
+{
+"at": 4,
+"step": "Reset to the original framing"
+}
+],
+"outcome": "They stand their ground and leap at the nearest man; the fisher lobs from behind.",
+"why": "The Ice Caves cast, filmed at the one place it works.",
+"tags": [
+"casts",
+"snow",
+"camera",
+"zoom-in",
+"start-timer"
+],
+"notes": "RAID → ice, tier m. CLEAR THE FIELD with CPU HOLD on. Open the units board (U); the ENEMY CASTS tabs sit under the Sarges on BOTH columns. A cast dropped from the computer's column fights for the computer, from YOUR column for you. On a battleground a cast's health and hits follow UNIT LEVEL like a man's; in a park, a raid or a campaign level the computer's cast is the level's own figure and ignores it. TAP a tile (press and let go) to land him on a random clear spot on his own side. The cave yetis are built for the ice caves and do little elsewhere: REHEARSE here first, and if they only stand, swap in Munchkin Yetis and Big Yetis.",
+"id": "the-ice-castle/unit-matchups/cave-yetis-leap"
+},
+{
+"place": "stone-row",
+"type": "traps-and-terrain",
+"title": "The big jack stops the triceratops",
+"file": "big-jack-stops-trike",
+"orient": "portrait",
+"len": 15,
+"green": [
+{
+"unit": "Rifleman",
+"n": 4,
+"note": "the bait, about 280 px from the triceratops"
+}
+],
+"tan": [
+{
+"unit": "Triceratops",
+"n": 2,
+"note": "DINO tab, the computer's column"
+}
+],
+"items": [
+"Big Jack x2 in the ram lane, between the triceratops and the riflemen"
+],
+"camera": [
+{
+"at": 0,
+"step": "Zoom in (about 2×) on the jacks"
+},
+{
+"at": 0.5,
+"step": "Hold through the charge"
+},
+{
+"at": 8,
+"step": "Reset to the original framing"
+}
+],
+"outcome": "The anti-tank jack goes off under the charging triceratops.",
+"why": "A placed trap against the cast's charger.",
+"tags": [
+"casts",
+"traps",
+"items",
+"camera",
+"zoom-in",
+"quick"
+],
+"notes": "BATTLEGROUND → stone. Open the units board (U); the ENEMY CASTS tabs sit under the Sarges on BOTH columns. A cast dropped from the computer's column fights for the computer, from YOUR column for you. On a battleground a cast's health and hits follow UNIT LEVEL like a man's; in a park, a raid or a campaign level the computer's cast is the level's own figure and ignores it. TAP a tile (press and let go) to land him on a random clear spot on his own side. UNIT LEVEL 20. The ram starts at 300 px; both armies trip jacks.",
+"id": "stone-row/traps-and-terrain/big-jack-stops-trike"
+},
+{
+"place": "western-land",
+"type": "large-battles",
+"title": "Bluecoats vs the outlaws",
+"file": "bluecoats-vs-outlaws",
+"orient": "landscape",
+"len": 40,
+"green": [
+{
+"unit": "Royalist",
+"n": 8,
+"note": "BEAR tab on YOUR column"
+},
+{
+"unit": "Bluecoat Officer",
+"n": 2,
+"note": "BEAR tab"
+},
+{
+"unit": "Pop-Cannon",
+"n": 2,
+"note": "BEAR tab, at the back"
+},
+{
+"unit": "Cavalryman",
+"n": 2,
+"note": "BEAR tab"
+},
+{
+"unit": "Captain Teddy",
+"n": 1,
+"note": "BEAR tab"
+}
+],
+"tan": [
+{
+"unit": "Outlaw",
+"n": 8,
+"note": "OUTLAW tab on the computer's column"
+},
+{
+"unit": "Outlaw Sniper",
+"n": 2,
+"note": "OUTLAW tab, at the back"
+},
+{
+"unit": "Outlaw Rider",
+"n": 3,
+"note": "OUTLAW tab"
+},
+{
+"unit": "Teddy Outlaw",
+"n": 2,
+"note": "OUTLAW tab"
+},
+{
+"unit": "Dynamite Lady",
+"n": 1,
+"note": "OUTLAW tab"
+},
+{
+"unit": "Buffalo Bill",
+"n": 1,
+"note": "OUTLAW tab"
+}
+],
+"camera": [
+{
+"at": 0,
+"step": "Zoom in a little (about 1.4×) on the left end of the front"
+},
+{
+"at": 0.5,
+"step": "Pan slowly along the front, keep zoom"
+},
+{
+"at": 25,
+"step": "Reset to the original framing for the end"
+}
+],
+"health": [
+"Both armies: 300%, so the fight lasts the take"
+],
+"outcome": "A blue line with pop-cannons behind it against the whole outlaw town, Bill in the middle of it.",
+"why": "Two full casts as armies, with officers rallying and snipers picking.",
+"tags": [
+"casts",
+"boss",
+"unit-level",
+"health",
+"camera",
+"pan"
+],
+"notes": "BATTLEGROUND → western. Open the units board (U); the ENEMY CASTS tabs sit under the Sarges on BOTH columns. A cast dropped from the computer's column fights for the computer, from YOUR column for you. On a battleground a cast's health and hits follow UNIT LEVEL like a man's; in a park, a raid or a campaign level the computer's cast is the level's own figure and ignores it. TAP a tile (press and let go) to land him on a random clear spot on his own side. UNIT LEVEL 25. TAP the tiles to fill both sides; the officers never shoot, they rally.",
+"id": "western-land/large-battles/bluecoats-vs-outlaws"
+},
+{
+"place": "dino-park",
+"type": "large-battles",
+"title": "The yeti horde invades Dino Park",
+"file": "yeti-horde-invades",
+"orient": "landscape",
+"len": 40,
+"green": [
+{
+"unit": "Munchkin Yeti",
+"n": 10,
+"note": "YETI tab on YOUR column: TAP the tile"
+},
+{
+"unit": "Big Yeti",
+"n": 3,
+"note": "YETI tab on YOUR column"
+},
+{
+"unit": "Snowman",
+"n": 3,
+"note": "YETI tab on YOUR column, at the back"
+},
+{
+"unit": "Sergeant Snowman",
+"n": 1,
+"note": "YETI tab on YOUR column"
+}
+],
+"tan": [
+{
+"unit": "Little Dino",
+"n": 10,
+"note": "DINO tab on the computer's column: TAP the tile"
+},
+{
+"unit": "Big Dino",
+"n": 3,
+"note": "DINO tab"
+},
+{
+"unit": "Spitter",
+"n": 3,
+"note": "DINO tab, at the back"
+},
+{
+"unit": "General Gobbles",
+"n": 1,
+"note": "DINO tab"
+}
+],
+"camera": [
+{
+"at": 0,
+"step": "Hold wide for the two hordes meeting"
+},
+{
+"at": 6,
+"step": "Zoom in on the middle of the clash"
+},
+{
+"at": 20,
+"step": "Pan along the line, keep zoom"
+},
+{
+"at": 32,
+"step": "Reset to the original framing"
+}
+],
+"health": [
+"Both sides: 300%"
+],
+"outcome": "Snow against scales on the dinos' own ground, with a boss on each side.",
+"why": "The biggest cast-against-cast fight, where the home side is the park's own figures.",
+"tags": [
+"casts",
+"boss",
+"health",
+"camera",
+"zoom-in",
+"pan",
+"snow"
+],
+"notes": "PARK → dino, rung 10. CLEAR THE FIELD with CPU HOLD on. Open the units board (U); the ENEMY CASTS tabs sit under the Sarges on BOTH columns. A cast dropped from the computer's column fights for the computer, from YOUR column for you. On a battleground a cast's health and hits follow UNIT LEVEL like a man's; in a park, a raid or a campaign level the computer's cast is the level's own figure and ignores it. TAP a tile (press and let go) to land him on a random clear spot on his own side. At a park the computer's cast is the park's own figure (it ignores UNIT LEVEL); your yetis fight as units.",
+"id": "dino-park/large-battles/yeti-horde-invades"
 }
 ]
 };
